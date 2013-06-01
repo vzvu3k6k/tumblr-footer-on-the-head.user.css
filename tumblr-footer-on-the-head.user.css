@@ -1,0 +1,50 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.tumblr.com") {
+.post_footer {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  width: auto !important;
+  border-top: none !important;
+  margin: 0 !important;
+}
+  .post_notes, .post_controls {
+    display: block !important;
+    float: left;
+    width: auto !important;
+  }
+
+.post_header {
+  display: -moz-box;
+}
+  .post_source {
+    -moz-box-ordinal-group: 1;
+    font-weight: bold;
+    top: 3px !important;
+  }
+    .post_source_name_prefix {
+      display: none !important;
+    }
+    .post_source_link {
+      background-image: none !important;
+      padding: 0 !important;
+    }
+    .post_source.has_icon .post_source_link {
+      text-indent: 0 !important;
+      font-size: 13px !important;
+    }
+    .post_source.has_icon .post_source_link em {
+      font-style: normal;
+    }
+    .post_source_link:after {
+      content: " → ";
+    }
+  .post_info {
+    -moz-box-ordinal-group: 2;
+  }
+    .post_info .reblog_icon {
+      padding: 9px 10px !important;
+    }
+
+}
