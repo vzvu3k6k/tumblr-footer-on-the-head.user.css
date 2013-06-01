@@ -42,7 +42,7 @@
       font-style: normal;
     }
     .post_source_link:after {
-      content: " → ";
+      content: " \2192 ";
     }
   .post_info {
     -moz-box-ordinal-group: 2;
