@@ -17,9 +17,13 @@
 
 .post_header {
   display: -moz-box;
+  display: -webkit-box;
+  display: box;
 }
   .post_source {
     -moz-box-ordinal-group: 1;
+    -webkit-box-ordinal-group: 1;
+    box-ordinal-group: 1;
     font-weight: bold;
     top: 3px !important;
   }
@@ -42,6 +46,11 @@
     }
   .post_info {
     -moz-box-ordinal-group: 2;
+    -webkit-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+    float: none !important;
+    position: relative !important;
+    top: 3px !important;
   }
     .post_info .reblog_icon {
       padding: 9px 10px !important;
