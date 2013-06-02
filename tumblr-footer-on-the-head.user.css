@@ -41,15 +41,10 @@
     .post_source.has_icon .post_source_link em {
       font-style: normal;
     }
-    .post_source_link:after, .post_source_app:after {
+    .post_source:after {
       content: " \2192 ";
-    }
-    .post_source_app:after {
-      padding-left: 20px;
-    }
-    .post_source_app {
-      background-position: calc(100% - 20px) 50% !important;
-      padding-right: 0px !important;
+      display: inline-block;
+      overflow: hidden;
     }
   .post_info {
     -moz-box-ordinal-group: 2;
