@@ -44,10 +44,12 @@
     .post_source_link:after, .post_source_app:after {
       content: " \2192 ";
     }
-    .post_source_app {
-      background-position: 0% 50% !important;
-      padding-right: 0 !important;
+    .post_source_app:after {
       padding-left: 20px;
+    }
+    .post_source_app {
+      background-position: calc(100% - 20px) 50% !important;
+      padding-right: 0px !important;
     }
   .post_info {
     -moz-box-ordinal-group: 2;
