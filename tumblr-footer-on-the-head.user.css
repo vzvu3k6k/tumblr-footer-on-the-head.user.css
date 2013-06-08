@@ -23,7 +23,16 @@
   display: -moz-box;
   display: -webkit-box;
   display: box;
+
+  max-width: 300px !important;
+  transition-property: max-width;
+  transition-duration: 0.7s;
 }
+ .post_header:hover {
+   max-width: 100% !important;
+   z-index: 10;
+   background-color: white;
+ }
   .post_source {
     -moz-box-ordinal-group: 1;
     -webkit-box-ordinal-group: 1;
