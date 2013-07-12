@@ -50,6 +50,7 @@
       .post_source_link {
         background-image: none !important;
         padding: 0 !important;
+        float: left !important;
       }
       .post_source.has_icon .post_source_link {
         text-indent: 0 !important;
